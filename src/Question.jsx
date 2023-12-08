@@ -10,7 +10,7 @@ const Question = ({ question, answer }) => {
           {show ? <AiOutlineMinus /> : <AiOutlinePlus />}
         </button>
       </header>
-{show && <p>{answer}</p>}
+      {show && <p>{answer}</p>}
     </article>
   );
 };

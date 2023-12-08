@@ -7,11 +7,10 @@ function App() {
   return (
     <main>
       <div className="container">
-        <h3>Question and answers about login</h3>
-     
+        <h3>REACT Interview Ouestions And Answers</h3>
       <section className="info">
-        {data.map(({ id,title,info }) => (
-          <Question key={id} title={title} info={info}/>
+        {data.map(({ id,question,answer }) => (
+          <Question key={id} question={question} answer={answer}/>
         ))}
       </section>
       </div>

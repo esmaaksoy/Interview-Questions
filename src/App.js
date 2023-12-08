@@ -8,12 +8,13 @@ function App() {
     <main>
       <div className="container">
         <h3>Question and answers about login</h3>
-      </div>
+     
       <section className="info">
         {questions.map(({ id,title,info }) => (
           <Question key={id} title={title} info={info}/>
         ))}
       </section>
+      </div>
     </main>
   );
 }
